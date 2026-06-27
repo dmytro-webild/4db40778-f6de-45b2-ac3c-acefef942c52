@@ -116,14 +116,6 @@ const HeroInline = () => {
           </div>
         </ScrollReveal>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-background pointer-events-none overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-48 bg-gradient-to-b from-background to-transparent z-10"></div>
-        <img 
-          src="https://storage.googleapis.com/webild/users/user_3FJRV03nE3LwAAG5jRBAh31loHt/uploaded-1782580116038-r2w88s3d.jpg" 
-          alt="Clearwater Beach Sunset" 
-          className="w-full h-full object-cover object-center"
-        />
-      </div>
     </section>
   );
 };
