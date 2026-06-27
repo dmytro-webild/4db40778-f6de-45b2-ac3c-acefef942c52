@@ -90,7 +90,7 @@ export default function Layout() {
           href: "#",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/mockup-copy-space-blank-screen-concept_53876-124218.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/mockup-copy-space-blank-screen-concept_53876-124218.jpg?_wi=2"
     />
       </SectionErrorBoundary>
     </StyleProvider>
