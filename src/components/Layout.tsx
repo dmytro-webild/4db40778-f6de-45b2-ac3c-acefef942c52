@@ -6,36 +6,7 @@ import { Outlet } from 'react-router-dom';
 import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
-  const navItems = [
-  {
-    "name": "about",
-    "href": "about"
-  },
-  {
-    "name": "features",
-    "href": "features"
-  },
-  {
-    "name": "pricing",
-    "href": "pricing"
-  },
-  {
-    "name": "contact",
-    "href": "contact"
-  },
-  {
-    "name": "hero",
-    "href": "#hero"
-  },
-  {
-    "name": "metrics",
-    "href": "#metrics"
-  },
-  {
-    "name": "testimonials",
-    "href": "#testimonials"
-  }
-];
+  const navItems: { name: string; href: string }[] = [];
 
   return (
     <StyleProvider buttonVariant="stagger" siteBackground="floatingGradient" heroBackground="gradientBars">
