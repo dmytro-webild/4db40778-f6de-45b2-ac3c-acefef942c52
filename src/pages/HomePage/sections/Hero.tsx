@@ -8,11 +8,11 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import { cls } from "@/lib/utils";
 
 const primaryButton = {
-  text: "Call 727-221-2651",
+  text: "call 727-221-2651",
   href: "tel:727-221-2651"
 };
 const secondaryButton = {
-  text: "Email Us",
+  text: "email us",
   href: "mailto:stevenoyer6@gmail.com"
 };
 const instagramButton = {
@@ -64,11 +64,11 @@ const HeroInline = () => {
       <div className="flex flex-col items-center gap-12 md:gap-15 w-full md:w-content-width mx-auto">
         <div className="flex flex-col items-center gap-3 w-content-width mx-auto text-center">
           <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-            <p>{"Guaranteed Results"}</p>
+            <p>{"guaranteed results"}</p>
           </div>
 
           <TextAnimation
-            text={"Turn Your Website Into a Traffic Engine"}
+            text={"turn your website into a traffic engine"}
             variant="fade"
             gradientText={true}
             tag="h1"
@@ -76,7 +76,7 @@ const HeroInline = () => {
           />
 
           <TextAnimation
-            text={"Oyerweb builds high-conversion websites designed to get your business noticed and keep your clients coming back."}
+            text={"oyerweb builds high-conversion websites designed to get your business noticed and keep your clients coming back."}
             variant="fade"
             gradientText={false}
             tag="p"
