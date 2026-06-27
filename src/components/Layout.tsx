@@ -1,5 +1,5 @@
 import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
-import NavbarFloating from '@/components/ui/NavbarFloating';
+import NavbarCentered from '@/components/ui/NavbarCentered';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Outlet } from 'react-router-dom';
@@ -8,31 +8,31 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "About",
+    "name": "about",
     "href": "about"
   },
   {
-    "name": "Features",
+    "name": "features",
     "href": "features"
   },
   {
-    "name": "Pricing",
+    "name": "pricing",
     "href": "pricing"
   },
   {
-    "name": "Contact",
+    "name": "contact",
     "href": "contact"
   },
   {
-    "name": "Hero",
+    "name": "hero",
     "href": "#hero"
   },
   {
-    "name": "Metrics",
+    "name": "metrics",
     "href": "#metrics"
   },
   {
-    "name": "Testimonials",
+    "name": "testimonials",
     "href": "#testimonials"
   }
 ];
@@ -41,10 +41,10 @@ export default function Layout() {
     <StyleProvider buttonVariant="stagger" siteBackground="floatingGradient" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarFloating
+        <NavbarCentered
       logo="oyerweb"
       ctaButton={{
-        text: "Call Now",
+        text: "call now",
         href: "tel:727-221-2651",
       }}
      navItems={navItems} />
@@ -54,39 +54,39 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleMedia
-      brand="Oyerweb"
+      brand="oyerweb"
       columns={[
         {
-          title: "Company",
+          title: "company",
           items: [
             {
-              label: "About",
+              label: "about",
               href: "#about",
             },
             {
-              label: "Contact",
+              label: "contact",
               href: "#contact",
             },
           ],
         },
         {
-          title: "Connect",
+          title: "connect",
           items: [
             {
-              label: "Instagram",
+              label: "instagram",
               href: "https://instagram.com/oyerweb",
             },
             {
-              label: "Email",
+              label: "email",
               href: "mailto:stevenoyer6@gmail.com",
             },
           ],
         },
       ]}
-      copyright="© 2024 Oyerweb. All rights reserved."
+      copyright="© 2024 oyerweb. all rights reserved."
       links={[
         {
-          label: "Privacy Policy",
+          label: "privacy policy",
           href: "#",
         },
       ]}
