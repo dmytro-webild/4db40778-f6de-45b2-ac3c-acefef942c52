@@ -61,7 +61,7 @@ export default function Layout() {
           href: "#",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/mockup-copy-space-blank-screen-concept_53876-124218.jpg?_wi=2"
+      imageSrc="https://storage.googleapis.com/webild/users/user_3FJRV03nE3LwAAG5jRBAh31loHt/uploaded-1782580116038-r2w88s3d.jpg"
     />
       </SectionErrorBoundary>
     </StyleProvider>
