@@ -17,7 +17,7 @@ export default function Layout() {
           <a href="/" className="text-xl font-bold tracking-tight text-foreground hover:opacity-80 transition-opacity">
             oyerweb
           </a>
-          <Button text="call now" href="tel:727-221-2651" variant="primary" />
+          
         </div>
       </SectionErrorBoundary>
       <main className="flex-grow">

@@ -8,7 +8,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import { cls } from "@/lib/utils";
 
 const primaryButton = {
-  text: "call 727-221-2651",
+  text: "call now",
   href: "tel:727-221-2651"
 };
 const secondaryButton = {
