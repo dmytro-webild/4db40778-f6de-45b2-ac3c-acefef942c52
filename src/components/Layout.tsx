@@ -1,5 +1,6 @@
 import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
 import NavbarCentered from '@/components/ui/NavbarCentered';
+import Button from '@/components/ui/Button';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Outlet } from 'react-router-dom';
@@ -12,13 +13,12 @@ export default function Layout() {
     <StyleProvider buttonVariant="stagger" siteBackground="floatingGradient" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarCentered
-      logo="oyerweb"
-      ctaButton={{
-        text: "call now",
-        href: "tel:727-221-2651",
-      }}
-     navItems={navItems} />
+        <div className="w-full flex justify-center items-center gap-6 py-6">
+          <a href="/" className="text-xl font-bold tracking-tight text-foreground hover:opacity-80 transition-opacity">
+            oyerweb
+          </a>
+          <Button text="call now" href="tel:727-221-2651" variant="primary" />
+        </div>
       </SectionErrorBoundary>
       <main className="flex-grow">
         <Outlet />
