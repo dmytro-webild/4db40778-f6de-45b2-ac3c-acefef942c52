@@ -27,7 +27,7 @@ export default function HomePage() {
       }}
       items={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mockup-copy-space-blank-screen-concept_53876-124218.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mockup-copy-space-blank-screen-concept_53876-124218.jpg?_wi=1",
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/artificial-intelligence-startup-coworkers-doing-brainstorming-optimizing-code_482257-125922.jpg",
